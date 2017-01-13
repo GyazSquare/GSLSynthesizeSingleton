@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7165B711E250B6800FD8167 /* libSingletonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D725E9F31A2F58C300572D37 /* libSingletonDemo.a */; };
+		D7165B781E250CD600FD8167 /* GSLARCObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7165B771E250CD600FD8167 /* GSLARCObjectTests.swift */; };
+		D725E9FF1A2F58C300572D37 /* libSingletonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D725E9F31A2F58C300572D37 /* libSingletonDemo.a */; };
+		D725EA0F1A2F593B00572D37 /* GSLARCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D725EA0E1A2F593B00572D37 /* GSLARCObject.m */; };
+		D725EA141A2F5BAE00572D37 /* GSLNonARCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D725EA131A2F5BAE00572D37 /* GSLNonARCObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D725EA161A2F646300572D37 /* GSLARCObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D725EA151A2F646300572D37 /* GSLARCObjectTests.m */; };
+		D725EA181A2F658D00572D37 /* GSLNonARCObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D725EA171A2F658D00572D37 /* GSLNonARCObjectTests.m */; };
+		D753A2451E28FB7300FCDE51 /* GSLNonARCObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753A2441E28FB7300FCDE51 /* GSLNonARCObjectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7165B721E250B6800FD8167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D725E9EB1A2F58C300572D37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D725E9F21A2F58C300572D37;
+			remoteInfo = SingletonDemo;
+		};
+		D725EA001A2F58C300572D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D725E9EB1A2F58C300572D37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D725E9F21A2F58C300572D37;
+			remoteInfo = SingletonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D725E9F11A2F58C300572D37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7165B6C1E250B6800FD8167 /* SingletonDemoTests-Swift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SingletonDemoTests-Swift.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7165B701E250B6800FD8167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7165B771E250CD600FD8167 /* GSLARCObjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSLARCObjectTests.swift; sourceTree = "<group>"; };
+		D725E9F31A2F58C300572D37 /* libSingletonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSingletonDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D725E9FE1A2F58C300572D37 /* SingletonDemoTests-ObjC.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SingletonDemoTests-ObjC.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D725EA041A2F58C300572D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D725EA0D1A2F593B00572D37 /* GSLARCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLARCObject.h; sourceTree = "<group>"; };
+		D725EA0E1A2F593B00572D37 /* GSLARCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLARCObject.m; sourceTree = "<group>"; };
+		D725EA111A2F598500572D37 /* GSLSynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLSynthesizeSingleton.h; sourceTree = "<group>"; };
+		D725EA121A2F5BAE00572D37 /* GSLNonARCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLNonARCObject.h; sourceTree = "<group>"; };
+		D725EA131A2F5BAE00572D37 /* GSLNonARCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLNonARCObject.m; sourceTree = "<group>"; };
+		D725EA151A2F646300572D37 /* GSLARCObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLARCObjectTests.m; sourceTree = "<group>"; };
+		D725EA171A2F658D00572D37 /* GSLNonARCObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLNonARCObjectTests.m; sourceTree = "<group>"; };
+		D753A2441E28FB7300FCDE51 /* GSLNonARCObjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSLNonARCObjectTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7165B691E250B6800FD8167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7165B711E250B6800FD8167 /* libSingletonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D725E9F01A2F58C300572D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D725E9FB1A2F58C300572D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D725E9FF1A2F58C300572D37 /* libSingletonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7165B6D1E250B6800FD8167 /* SingletonDemoTests-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D7165B771E250CD600FD8167 /* GSLARCObjectTests.swift */,
+				D753A2441E28FB7300FCDE51 /* GSLNonARCObjectTests.swift */,
+				D7165B701E250B6800FD8167 /* Info.plist */,
+			);
+			path = "SingletonDemoTests-Swift";
+			sourceTree = "<group>";
+		};
+		D725E9EA1A2F58C300572D37 = {
+			isa = PBXGroup;
+			children = (
+				D725EA101A2F598500572D37 /* GSLSynthesizeSingleton */,
+				D725E9F51A2F58C300572D37 /* SingletonDemo */,
+				D725EA021A2F58C300572D37 /* SingletonDemoTests-ObjC */,
+				D7165B6D1E250B6800FD8167 /* SingletonDemoTests-Swift */,
+				D725E9F41A2F58C300572D37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D725E9F41A2F58C300572D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D725E9F31A2F58C300572D37 /* libSingletonDemo.a */,
+				D725E9FE1A2F58C300572D37 /* SingletonDemoTests-ObjC.xctest */,
+				D7165B6C1E250B6800FD8167 /* SingletonDemoTests-Swift.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D725E9F51A2F58C300572D37 /* SingletonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D725EA0D1A2F593B00572D37 /* GSLARCObject.h */,
+				D725EA0E1A2F593B00572D37 /* GSLARCObject.m */,
+				D725EA121A2F5BAE00572D37 /* GSLNonARCObject.h */,
+				D725EA131A2F5BAE00572D37 /* GSLNonARCObject.m */,
+			);
+			path = SingletonDemo;
+			sourceTree = "<group>";
+		};
+		D725EA021A2F58C300572D37 /* SingletonDemoTests-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				D725EA151A2F646300572D37 /* GSLARCObjectTests.m */,
+				D725EA171A2F658D00572D37 /* GSLNonARCObjectTests.m */,
+				D725EA041A2F58C300572D37 /* Info.plist */,
+			);
+			path = "SingletonDemoTests-ObjC";
+			sourceTree = "<group>";
+		};
+		D725EA101A2F598500572D37 /* GSLSynthesizeSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				D725EA111A2F598500572D37 /* GSLSynthesizeSingleton.h */,
+			);
+			name = GSLSynthesizeSingleton;
+			path = ../GSLSynthesizeSingleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7165B6B1E250B6800FD8167 /* SingletonDemoTests-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7165B761E250B6800FD8167 /* Build configuration list for PBXNativeTarget "SingletonDemoTests-Swift" */;
+			buildPhases = (
+				D7165B681E250B6800FD8167 /* Sources */,
+				D7165B691E250B6800FD8167 /* Frameworks */,
+				D7165B6A1E250B6800FD8167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7165B731E250B6800FD8167 /* PBXTargetDependency */,
+			);
+			name = "SingletonDemoTests-Swift";
+			productName = "SingletonDemoTests-Swift";
+			productReference = D7165B6C1E250B6800FD8167 /* SingletonDemoTests-Swift.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D725E9F21A2F58C300572D37 /* SingletonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D725EA071A2F58C400572D37 /* Build configuration list for PBXNativeTarget "SingletonDemo" */;
+			buildPhases = (
+				D725E9EF1A2F58C300572D37 /* Sources */,
+				D725E9F01A2F58C300572D37 /* Frameworks */,
+				D725E9F11A2F58C300572D37 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingletonDemo;
+			productName = SingletonDemo;
+			productReference = D725E9F31A2F58C300572D37 /* libSingletonDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D725E9FD1A2F58C300572D37 /* SingletonDemoTests-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D725EA0A1A2F58C400572D37 /* Build configuration list for PBXNativeTarget "SingletonDemoTests-ObjC" */;
+			buildPhases = (
+				D725E9FA1A2F58C300572D37 /* Sources */,
+				D725E9FB1A2F58C300572D37 /* Frameworks */,
+				D725E9FC1A2F58C300572D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D725EA011A2F58C300572D37 /* PBXTargetDependency */,
+			);
+			name = "SingletonDemoTests-ObjC";
+			productName = SingletonDemoTests;
+			productReference = D725E9FE1A2F58C300572D37 /* SingletonDemoTests-ObjC.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D725E9EB1A2F58C300572D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					D7165B6B1E250B6800FD8167 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					D725E9F21A2F58C300572D37 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D725E9FD1A2F58C300572D37 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D725E9EE1A2F58C300572D37 /* Build configuration list for PBXProject "SingletonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D725E9EA1A2F58C300572D37;
+			productRefGroup = D725E9F41A2F58C300572D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D725E9F21A2F58C300572D37 /* SingletonDemo */,
+				D725E9FD1A2F58C300572D37 /* SingletonDemoTests-ObjC */,
+				D7165B6B1E250B6800FD8167 /* SingletonDemoTests-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7165B6A1E250B6800FD8167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D725E9FC1A2F58C300572D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7165B681E250B6800FD8167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7165B781E250CD600FD8167 /* GSLARCObjectTests.swift in Sources */,
+				D753A2451E28FB7300FCDE51 /* GSLNonARCObjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D725E9EF1A2F58C300572D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D725EA0F1A2F593B00572D37 /* GSLARCObject.m in Sources */,
+				D725EA141A2F5BAE00572D37 /* GSLNonARCObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D725E9FA1A2F58C300572D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D725EA161A2F646300572D37 /* GSLARCObjectTests.m in Sources */,
+				D725EA181A2F658D00572D37 /* GSLNonARCObjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7165B731E250B6800FD8167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D725E9F21A2F58C300572D37 /* SingletonDemo */;
+			targetProxy = D7165B721E250B6800FD8167 /* PBXContainerItemProxy */;
+		};
+		D725EA011A2F58C300572D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D725E9F21A2F58C300572D37 /* SingletonDemo */;
+			targetProxy = D725EA001A2F58C300572D37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7165B741E250B6800FD8167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "SingletonDemoTests-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.SingletonDemoTests-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "SingletonDemo/SingletonDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7165B751E250B6800FD8167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = "SingletonDemoTests-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.SingletonDemoTests-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SingletonDemo/SingletonDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D725EA051A2F58C400572D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D725EA061A2F58C400572D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D725EA081A2F58C400572D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D725EA091A2F58C400572D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D725EA0B1A2F58C400572D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SingletonDemoTests-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D725EA0C1A2F58C400572D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SingletonDemoTests-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7165B761E250B6800FD8167 /* Build configuration list for PBXNativeTarget "SingletonDemoTests-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7165B741E250B6800FD8167 /* Debug */,
+				D7165B751E250B6800FD8167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D725E9EE1A2F58C300572D37 /* Build configuration list for PBXProject "SingletonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D725EA051A2F58C400572D37 /* Debug */,
+				D725EA061A2F58C400572D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D725EA071A2F58C400572D37 /* Build configuration list for PBXNativeTarget "SingletonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D725EA081A2F58C400572D37 /* Debug */,
+				D725EA091A2F58C400572D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D725EA0A1A2F58C400572D37 /* Build configuration list for PBXNativeTarget "SingletonDemoTests-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D725EA0B1A2F58C400572D37 /* Debug */,
+				D725EA0C1A2F58C400572D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D725E9EB1A2F58C300572D37 /* Project object */;
+}
