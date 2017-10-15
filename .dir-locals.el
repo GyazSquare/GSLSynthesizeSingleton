@@ -16,13 +16,13 @@
                   (expand-file-name "SingletonDemo/SingletonDemo"
                                     project-dir)))))
  (objc-mode
-  . ((flycheck-objc-clang-xcrun-sdk . "iphoneos10.3")
+  . ((flycheck-objc-clang-xcrun-sdk . "iphoneos11.0")
      (flycheck-objc-clang-arc . t)
      (flycheck-objc-clang-modules . t)
      (flycheck-objc-clang-archs . ("arm64" "armv7"))
      (flycheck-objc-clang-ios-version-min . "8.0")))
  (swift-mode
-  . ((flycheck-swift3-xcrun-sdk . "iphoneos10.3")
+  . ((flycheck-swift3-xcrun-sdk . "iphoneos11.0")
      (flycheck-swift3-target . "arm64-apple-ios8")
      (eval . (set 'flycheck-swift3-import-objc-header
                   (expand-file-name "SingletonDemo-Bridging-Header.h"
