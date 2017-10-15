@@ -48,6 +48,8 @@ Copy GSLSynthesizeSingleton.h into your project.
 ```objc
 @import Foundation;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface XYZManager : NSObject
 
 + (instancetype)sharedManager;
@@ -55,12 +57,16 @@ Copy GSLSynthesizeSingleton.h into your project.
 // ...
 
 @end
+
+NS_ASSUME_NONNULL_END
 ```
 
 Or if you use the class from Swift, you'd better declare as follows:
 
 ```objc
 @import Foundation;
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface XYZManager : NSObject
 
@@ -71,6 +77,8 @@ Or if you use the class from Swift, you'd better declare as follows:
 // ...
 
 @end
+
+NS_ASSUME_NONNULL_END
 ```
 
 **XYZManager.m**
