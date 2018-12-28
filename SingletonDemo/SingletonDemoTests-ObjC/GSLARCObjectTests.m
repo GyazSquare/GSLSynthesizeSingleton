@@ -24,18 +24,18 @@
 }
 
 - (void)testSharedARCObject {
-    GSLARCObject *sharedARCObject = [GSLARCObject sharedARCObject];
+    GSLARCObject *sharedARCObject = GSLARCObject.sharedARCObject;
     // not nil
     XCTAssertNotNil(sharedARCObject);
     // shared
-    XCTAssertEqualObjects(sharedARCObject, [GSLARCObject sharedARCObject]);
+    XCTAssertEqualObjects(sharedARCObject, GSLARCObject.sharedARCObject);
     // background
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     NSInteger count = 100;
     while (count-- > 0) {
         XCTestExpectation *expectation = [self expectationWithDescription:@"background"];
         dispatch_async(queue, ^{
-            XCTAssertEqualObjects(sharedARCObject, [GSLARCObject sharedARCObject]);
+            XCTAssertEqualObjects(sharedARCObject, GSLARCObject.sharedARCObject);
             [expectation fulfill];
         });
     }
@@ -51,7 +51,7 @@
 }
 
 - (void)testCopy {
-    GSLARCObject *sharedARCObject = [GSLARCObject sharedARCObject];
+    GSLARCObject *sharedARCObject = GSLARCObject.sharedARCObject;
     XCTAssertEqualObjects(sharedARCObject, [sharedARCObject copy]);
 }
 
