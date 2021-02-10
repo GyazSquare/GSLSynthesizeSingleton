@@ -26,7 +26,7 @@
                       (list library-root example-root)))))))
  (swift-mode
   . ((flycheck-swift3-xcrun-sdk . "iphoneos")
-     (flycheck-swift3-target . "arm64-apple-ios8")
+     (flycheck-swift3-target . "arm64-apple-ios9")
      (eval . (set 'flycheck-swift3-import-objc-header
                   (expand-file-name "SingletonDemo-Bridging-Header.h"
                                     example-root)))))
@@ -35,7 +35,7 @@
      (flycheck-objc-clang-arc . t)
      (flycheck-objc-clang-modules . t)
      (flycheck-objc-clang-archs . ("arm64" "armv7"))
-     (flycheck-objc-clang-ios-version-min . "8.0")))
+     (flycheck-objc-clang-ios-version-min . "9.0")))
  (nil
   . ((eval . (setenv "DEVELOPER_DIR"
                      "/Applications/Xcode.app/Contents/Developer"))
