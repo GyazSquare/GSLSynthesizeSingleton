@@ -8,7 +8,7 @@ GSLSynthesizeSingleton is a simple macro to synthesize the methods for an Object
 
 * Xcode 12.0 or later
 * Base SDK: iOS 14.0 / macOS 10.15 / watchOS 7.0 / tvOS 14.0 or later
-* Deployment Target: iOS 8.0 / OS X 10.6 / watchOS 2.0 / tvOS 9.0 or later
+* Deployment Target: iOS 6.0 / OS X 10.6 / watchOS 2.0 / tvOS 9.0 or later
 
 ## Installation
 
