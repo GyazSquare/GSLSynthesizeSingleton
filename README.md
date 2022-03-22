@@ -1,13 +1,13 @@
 # GSLSynthesizeSingleton
 
-[![Build Status](https://travis-ci.org/GyazSquare/GSLSynthesizeSingleton.svg?branch=master)](https://travis-ci.org/GyazSquare/GSLSynthesizeSingleton)
+[![Build Status](https://travis-ci.com/GyazSquare/GSLSynthesizeSingleton.svg?branch=master)](https://travis-ci.org/GyazSquare/GSLSynthesizeSingleton)
 
 GSLSynthesizeSingleton is a simple macro to synthesize the methods for an Objective-C singleton class.
 
 ## Requirements
 
-* Xcode 12.0 or later
-* Base SDK: iOS 14.0 / macOS 10.15 / watchOS 7.0 / tvOS 14.0 or later
+* Xcode 13.0 or later
+* Base SDK: iOS 15 / macOS 11.3 / watchOS 8 / tvOS 15 or later
 * Deployment Target: iOS 6.0 / OS X 10.6 / watchOS 2.0 / tvOS 9.0 or later
 
 ## Installation
