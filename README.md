@@ -1,6 +1,6 @@
 # GSLSynthesizeSingleton
 
-[![Build Status](https://travis-ci.com/GyazSquare/GSLSynthesizeSingleton.svg?branch=master)](https://travis-ci.org/GyazSquare/GSLSynthesizeSingleton)
+[![Build Status](https://github.com/GyazSquare/GSLSynthesizeSingleton/actions/workflows/test.yml/badge.svg)](https://github.com/GyazSquare/GSLSynthesizeSingleton/actions/workflows/test.yml)
 
 GSLSynthesizeSingleton is a simple macro to synthesize the methods for an Objective-C singleton class.
 
