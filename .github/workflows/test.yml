@@ -12,7 +12,6 @@ jobs:
     strategy:
       matrix:
         run-config:
-          - { destination: "platform=macOS" }
           - { destination: "platform=iOS Simulator,name=iPhone 13,OS=15.2" }
     steps:
       - name: Checkout
